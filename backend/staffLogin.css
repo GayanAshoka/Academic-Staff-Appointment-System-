@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url("./RESOURCES/bbb.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.tNBar {
+    background-color: aliceblue;
+    min-height: 7.5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.tUOV {
+    font-size: 18pt;
+    color: rgb(0, 102, 19);
+}
+
+.tUOV span {
+    color: rgb(36, 36, 36);
+}
+
+h2 {
+    padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 10px black;
+}
+
+.formIn {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-shadow: 0 0 8px black;
+}
+
+.cDv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+
+    background-color: rgba(128, 255, 175, 0.5); /* bluish color with opacity */
+    backdrop-filter: blur(10px); /* blur effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* shadow effect */
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.formIn input {
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 1.5rem;
+    width: 10rem;
+}
+
+
+.formIn .btns {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    height: 2.5rem;
+    width: 10rem;
+    margin-bottom: 30px;
+}
+

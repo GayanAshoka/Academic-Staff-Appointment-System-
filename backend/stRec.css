@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url("./RESOURCES/111.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+table, tr, th, td {
+    border: 1px solid gray;
+}
+table th {
+    background-color: #aeabff5a;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #ff838339;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  a {
+    margin-top: 150px;
+    padding: 10px 20px;
+    display: block;
+    background-color: rgba(49, 49, 255, 0.819);
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+
